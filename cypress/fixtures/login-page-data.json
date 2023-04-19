@@ -1,0 +1,7 @@
+{
+  "emailOrUserName_loc": "#inputEmail",
+  "password_loc": "#inputPassword",
+  "login_btn_loc": ".login-btn",
+  "emailOrUserName_data": "qa-assigment",
+  "password_data": "qa-Bynder2023!"
+}
