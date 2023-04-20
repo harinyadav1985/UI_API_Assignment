@@ -20,7 +20,7 @@ describe("Wave Trial login suite", () => {
     cy.get(login_data.login_btn_loc).type("{enter}");
     cy.title().should("eq", "Wave trial");
   });
-  it.only("verify login with valid username and with invalid password", () => {
+  it("verify login with valid username and with invalid password", () => {
     cy.visit(Cypress.env("baseUrl"));
     cy.get(login_data.emailOrUserName_loc).type(
       login_data.emailOrUserName_data
